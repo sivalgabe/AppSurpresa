@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Surpresa para você!</string>
+    <string name="text_surpresa">Temos uma surpresa para você!</string>
+    <string name="text_buttomClique">Clique Aqui</string>
+    <string name="description_envelope">Envelope preto fechado</string>
+    <string name="text_aniversario">Feliz Aniversário!</string>
+    <string name="description_tonnytonnychopper">Personagem Tonny Tonny Chopper festejando com algodão doce</string>
+</resources>

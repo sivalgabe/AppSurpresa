@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Surpresa"
+        android:textColor="@color/teal_700"
+        android:layout_width="@dimen/size0"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:text="@string/text_surpresa"
+        android:textSize="@dimen/font_size20"
+        android:layout_margin="@dimen/margin8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/BotaoCliqueAqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_buttomClique"
+        app:layout_constraintTop_toBottomOf="@id/tv_Surpresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/magin_size50"
+        app:layout_constraintBottom_toTopOf="@id/ivEnvelope"/>
+
+    <ImageView
+        android:id="@+id/ivEnvelope"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size300"
+        android:src="@drawable/envelope_1"
+        android:contentDescription="@string/description_envelope"
+        app:layout_constraintTop_toBottomOf="@id/BotaoCliqueAqui"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
